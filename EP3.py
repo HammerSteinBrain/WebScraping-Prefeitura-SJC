@@ -74,9 +74,9 @@ for i in range(1,len(contratos)-1,1): #começo,fim,passo
     linha=(contratos[i].find_all("td"))#pegando todas as linhas e criando uma lista de linhas
 
     for item_sujo in linha:#limpando os dados brutos
-        item_sujo = item_sujo.next_element#remove aquelas tags feias
-        item_sujo = item_sujo.lstrip()#remove aquelas tags feias
-        itens_limpos .append(item_sujo)#criando uma lista de itens limpos
+        item_sujo = (item_sujo.next_element).get_text()#remove aquelas tags feias
+        #item_sujo = item_sujo.get_text()#remove aquelas tags feias
+        itens_limpos.append(item_sujo)#criando uma lista de itens limpos
 
     for i in range(0,len(itens_limpos)-1): #Adicionando Numero/Ano dos contratos a lista de itens limpos
         if(itens_limpos[i]=='' and itens_limpos[i-1]=='CONTRATO'):
