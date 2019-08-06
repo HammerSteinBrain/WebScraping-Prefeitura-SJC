@@ -1,5 +1,5 @@
 '''
-RODRIGO ROSA E CASSIO COSTA DA SILVA
+RODRIGO ROSA
 
 Raspagem de dados em uma pagina que tem elementos(BOTÕES) de java script com os modulos:
 Selenium
@@ -221,7 +221,7 @@ print('\n')
 if Total_2017 > Total_2018:
     print('A PMSJC gastou mais no ano de 2017 com licitações que no ano de 2018...\nAté o presente momento...')
 else:
-    print('A PMSJC gastou mais no ano de 2018 com licitações que no ano de 2018...\nAté o presente momento...')
+    print('A PMSJC gastou mais no ano de 2018 com licitações que no ano de 2017...\nAté o presente momento...')
     
 
 
