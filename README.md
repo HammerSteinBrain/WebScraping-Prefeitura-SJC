@@ -42,7 +42,3 @@ Executar o projeto para comparar dados PUBLICOS
 ## Autores e contribuidores
 
 * **Rodrigo Lopes** - *Initial work* - [Lebbit](https://github.com/hammersteinbrain)
-* **CASSIO COSTA DA SILVA** - *Work in Project*
-
-
-
