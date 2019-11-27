@@ -31,7 +31,7 @@ Executar o projeto para comparar dados PUBLICOS
 -beatifulsoap
 -pandas DATAFRAME
 
-## Contruido com:
+## Construido com:
 
 * [Python](https://www.python.org/doc/) - The language used
 * [Selenium](https://www.seleniumhq.org/docs/) - API used
